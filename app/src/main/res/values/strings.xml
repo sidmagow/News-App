@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">News</string>
+    <string name="storyLink"><![CDATA[See full Story >]]></string>
+    <string name="news_image">News Image</string>
+    <string name="choose_location">Choose your location</string>
+    <string name="apply_Btn">Apply</string>
+    <string name="somethingWentWrong">Something went wrong</string>
+    <string name="refresh">REFRESH</string>
+    <string-array name="sort">
+        <item>Newest</item>
+        <item>Popularity</item>
+        <item>Oldest</item>
+    </string-array>
+
+    <string-array name="location">
+        <item>India</item>
+        <item>USA</item>
+        <item>Australia</item>
+    </string-array>
+</resources>

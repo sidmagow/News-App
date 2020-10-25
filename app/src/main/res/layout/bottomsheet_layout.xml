@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llBottomSheetOpener"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/margin_8dp"
+    android:layout_marginTop="@dimen/margin_8dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvChooseLocation"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:gravity="start|center_vertical"
+        android:text="@string/choose_location"
+        android:textSize="16sp" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="@dimen/margin_8dp"
+        android:layout_marginTop="@dimen/margin_8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:background="@color/colorPrimaryDark" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvBottomSheetOpener"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       >
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_margin="@dimen/margin_8dp"
+        android:id="@+id/closeBtn"
+        android:layout_gravity="bottom|center_horizontal"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="@string/apply_Btn"
+        android:textSize="@dimen/text_20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </com.google.android.material.button.MaterialButton>
+
+</LinearLayout>
